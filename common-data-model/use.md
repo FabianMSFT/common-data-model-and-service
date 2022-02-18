@@ -39,7 +39,7 @@ As opposed to building a new data model for your app, you can simply
 re-use the entity definitions available to you. Common Data Model can be used by
 various applications and services including Microsoft Dataverse, Dynamics 365,
 Microsoft Power Platform, and Azure ensuring that all of your services can access the same
-data. Common Data Model is already available to many customers a great example
+data. Common Data Model is already available to many customers. A great example
 of how Common Data Model can be leveraged is with the data-preparation
 capabilities in Power BI dataflows that creates data files which follow the
 Common Data Model definition, which is stored in Azure Data Lake. The Common
@@ -48,11 +48,11 @@ Data Model definitions are open and available to any service or application that
 ![Common Data Model with Dataverse.](media/cdm-with-cds.png)
 
 Data described using Common Data Model can be used with Azure services to build
-scalable analytical solutions as well as being a
+scalable analytical solutions that reason over data using machine-readable
+semantic metadata as well as being a
 [source](/dynamics365/ai/customer-insights/connect-common-data-model-folder)
 of semantically rich data for applications driving actionable insights like
-Dynamics 365 Customer Insights. that reason over data using machine-readable
-semantic metadata. Common Data Model is used to define entities for Dynamics 365
+Dynamics 365 Customer Insights. Common Data Model is used to define entities for Dynamics 365
 applications in Sales, Finance, Supply Chain and Commerce can be readily
 available in Azure Data Lake.
 
